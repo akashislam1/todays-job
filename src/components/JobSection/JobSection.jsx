@@ -5,7 +5,7 @@ const JobSection = () => {
   const [jobs, setJobs] = useState([]);
 
   useEffect(() => {
-    fetch("../../../public/category.json")
+    fetch("/category.json")
       .then((res) => res.json())
       .then((data) => setJobs(data));
   }, []);

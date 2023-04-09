@@ -6,12 +6,11 @@ import Features from "../Features/Features";
 
 const Home = () => {
   return (
-    <div className="w-full lg:w-5/6 mx-auto">
-      <Header></Header>
+    <>
       <Banner></Banner>
       <JobSection></JobSection>
       <Features></Features>
-    </div>
+    </>
   );
 };
 

@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Feature = ({ feature }) => {
-  console.log(feature);
+  // console.log(feature);
   const {
+    id,
     companyLogo,
     companyName,
     jobTitle,
@@ -27,7 +29,9 @@ const Feature = ({ feature }) => {
         <p>Salary : BDT {salary}</p>
       </div>
       <div>
-        <button className="btn-primary">View Details</button>
+        <Link to={`/feature/${id}`}>
+          <button className="btn-primary">View Details</button>
+        </Link>
       </div>
     </div>
   );
