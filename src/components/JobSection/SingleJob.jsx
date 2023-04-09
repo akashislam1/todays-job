@@ -1,7 +1,6 @@
 import React from "react";
 
 const SingleJob = ({ job }) => {
-  console.log(job);
   const { img, jobAvailable, jobTitle } = job;
   return (
     <div className="bg-[#9873FF0D] p-9 rounded-md my-4 shadow-md">
