@@ -28,9 +28,7 @@ const Header = () => {
         </ul>
       </div>
       <div>
-        <button className="p-4 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-md font-bold">
-          Start Applying
-        </button>
+        <button className="btn-primary">Start Applying</button>
       </div>
     </div>
   );
