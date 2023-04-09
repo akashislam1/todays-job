@@ -13,6 +13,7 @@ const Features = () => {
       .then((res) => res.json())
       .then((data) => setFeatures(data));
   }, []);
+
   return (
     <>
       <div className=" my-28 p-1">

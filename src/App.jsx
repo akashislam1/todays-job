@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="w-full lg:w-5/6 mx-auto">
+    <div className="w-full lg:w-5/6 mx-auto p-2">
       <Header></Header>
       <Outlet></Outlet>
     </div>
