@@ -1,0 +1,181 @@
+[
+  {
+    "id": "12345",
+    "companyLogo": "https://ibb.co/Dzr88b8",
+    "jobTitle": "Software Engineer",
+    "companyName": "ABC Tech",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Competitive, based on experience",
+    "jobDescription": "ABC Tech is looking for a skilled Software Engineer to develop and maintain web applications using modern web technologies.",
+    "jobResponsibility": "Develop web applications using modern web technologies like JavaScript, HTML, and CSS.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field",
+    "experiences": "At least 3 years of professional experience in software development. Strong coding skills in JavaScript.",
+    "contactInformation": {
+      "phone": "0125478",
+      "email": "abctech@gamil.com"
+    }
+  },
+  {
+    "id": "67890",
+    "companyLogo": "https://ibb.co/LddpMfW",
+    "jobTitle": "Data Scientist",
+    "companyName": "XYZ Analytics",
+    "remoteOrOnsite": "Onsite",
+    "location": "Chicago, IL",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Salary commensurate with experience",
+    "jobDescription": "XYZ Analytics is seeking a Data Scientist to analyze and interpret complex data sets.",
+    "jobResponsibility": "Analyze and interpret complex data sets using statistical techniques. Develop and implement machine learning models.",
+    "educationalRequirements": "Master's or PhD in Computer Science, Statistics, or a related field",
+    "experiences": "At least 5 years of professional experience in data science. Strong programming skills in Python or R.",
+    "contactInformation": {
+      "phone": "+784585455",
+      "email": "xyz-analytics@gmail.com"
+    }
+  },
+  {
+    "id": "45678",
+    "companyLogo": "https://ibb.co/dK3hwZG",
+    "jobTitle": "Front-end Developer",
+    "companyName": "LMN Solutions",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Competitive, based on experience",
+    "jobDescription": "LMN Solutions is looking for a skilled Front-end Developer to create and maintain user-friendly web applications.",
+    "jobResponsibility": "Create and maintain user-friendly web applications using HTML, CSS, and JavaScript. Collaborate with back-end developers and UX designers.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science or a related field",
+    "experiences": "At least 3 years of professional experience in front-end development. Strong coding skills in HTML, CSS, and JavaScript.",
+    "contactInformation": {
+      "phone": "+8975568996",
+      "email": "lmn@microsoft.com"
+    }
+  },
+  {
+    "id": "78901",
+    "companyLogo": "https://ibb.co/0hZ7jkz",
+    "jobTitle": "Product Manager",
+    "companyName": "PQR Inc.",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Competitive, based on experience",
+    "jobDescription": "PQR Inc. is seeking a Product Manager to lead the development and launchof new products and features.",
+    "jobResponsibility": "Lead the entire product development lifecycle, from concept to launch. Conduct market research, gather customer feedback, and define product requirements. Collaborate with cross-functional teams including design, engineering, and marketing.",
+    "educationalRequirements": "Bachelor's or Master's degree in Business, Marketing, or a related field",
+    "experiences": "At least 5 years of professional experience in product management. Strong understanding of user-centered design principles and agile development methodologies.",
+    "contactInformation": {
+      "phone": "+8974585",
+      "email": "pqr@example.com"
+    }
+  },
+  {
+    "id": "23456",
+    "companyLogo": "https://ibb.co/ftbgCJp",
+    "jobTitle": "UX Designer",
+    "companyName": "DEF Creative",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Competitive, based on experience",
+    "jobDescription": "DEF Creative is seeking a talented UX Designer to create visually appealing and user-friendly digital experiences.",
+    "jobResponsibility": "Create wireframes, mockups, and prototypes to effectively communicate design ideas. Conduct user research, usability testing, and iterate designs based on feedback. Collaborate with cross-functional teams including product management and development.",
+    "educationalRequirements": "Bachelor's or Master's degree in Design, Human-Computer Interaction, or a related field",
+    "experiences": "At least 3 years of professional experience in UX/UI design. Strong proficiency in design tools such as Sketch, Figma, or Adobe XD.",
+    "contactInformation": {
+      "phone": "+98975858",
+      "email": "def@creative.com"
+    }
+  },
+  {
+    "id": "34567",
+    "companyLogo": "https://ibb.co/CW7XL28",
+    "companyName": "GHI Analytics",
+    "remoteOrOnsite": "Onsite",
+    "location": "New York, NY",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Salary commensurate with experience",
+    "jobDescription": "GHI Analytics is looking for a skilled Data Engineer to design, develop, and maintain data pipelines and ETL processes.",
+    "jobResponsibility": "Design, develop, and maintain data pipelines and ETL processes. Optimize and troubleshoot data integration and processing workflows. Collaborate with data scientists and analysts to understand data requirements and ensure data integrity.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Data Engineering, or a related field",
+    "experiences": "At least 5 years of professional experience in data engineering. Strong coding skills in Python, Scala, or Java. Experience with Big Data technologies such as Hadoop, Spark, or Kafka.",
+    "contactInformation": {
+      "phone": "8958755996",
+      "email": "ghi@analytics.com"
+    }
+  },
+  {
+    "id": "45678",
+    "companyLogo": "https://ibb.co/vwtJn9p",
+    "jobTitle": "Graphic Designer",
+    "companyName": "JKL Creative",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrPartTime": "Part-time",
+    "salary": "Hourly rate based on experience",
+    "jobDescription": "JKL Creative is seeking a talented Graphic Designer to create visually appealing and impactful designs for print and digital media.",
+    "jobResponsibility": "Createvisually appealing and impactful designs for print and digital media. Collaborate with clients and internal teams to understand design requirements and deliver high-quality designs within deadlines. Use design software such as Adobe Photoshop, Illustrator, and InDesign to create graphics, layouts, and illustrations.",
+    "educationalRequirements": "Bachelor's or Master's degree in Graphic Design, Visual Arts, or a related field",
+    "experiences": "At least 3 years of professional experience in graphic design. Strong proficiency in design software such as Adobe Photoshop, Illustrator, and InDesign. Portfolio of previous design work.",
+    "contactInformation": {
+      "phone": "+87958556",
+      "email": "jkl@creativedesign.com"
+    }
+  },
+  {
+    "id": "56789",
+    "companyLogo": "https://ibb.co/K7zP3wV",
+    "jobTitle": "Frontend Developer",
+    "companyName": "MNO Tech",
+    "remoteOrOnsite": "Onsite",
+    "location": "San Francisco, CA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Competitive, based on experience",
+    "jobDescription": "MNO Tech is seeking a talented Frontend Developer to create visually appealing and interactive user interfaces for web applications.",
+    "jobResponsibility": "Develop and maintain frontend components and user interfaces for web applications. Collaborate with product managers and designers to implement user interfaces that are visually appealing and highly usable. Optimize web applications for performance and responsiveness.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Web Development, or a related field",
+    "experiences": "At least 3 years of professional experience in frontend development. Strong proficiency in HTML, CSS, and JavaScript. Experience with frontend frameworks such as React, Angular, or Vue.",
+    "contactInformation": {
+      "phone": "+9897588",
+      "email": "mno@tech.com"
+    }
+  },
+  {
+    "id": "67890",
+    "companyLogo": "https://ibb.co/ryzJjV2",
+    "jobTitle": "Content Writer",
+    "companyName": "PQR Media",
+    "remoteOrOnsite": "Remote",
+    "location": "Any Location",
+    "fulltimeOrPartTime": "Part-time",
+    "salary": "Hourly rate based on experience",
+    "jobDescription": "PQR Media is looking for a talented Content Writer to create engaging and informative content for various digital platforms.",
+    "jobResponsibility": "Write and edit high-quality content for websites, blogs, social media, and other digital platforms. Conduct research to gather information and create informative and engaging content. Collaborate with marketing and design teams to ensure content aligns with overall marketing strategies.",
+    "educationalRequirements": "Bachelor's or Master's degree in Journalism, English, Communications, or a related field",
+    "experiences": "At least 2 years of professional experience in content writing. Strong writing and editing skills with a keen eye for detail. Familiarity with SEO best practices.",
+    "contactInformation": {
+      "phone": "+587985",
+      "email": "pqr@media.com"
+    }
+  },
+  {
+    "id": "78901",
+    "companyLogo": "https://ibb.co/3NyjcHW",
+    "jobTitle": "Software Engineer",
+    "companyName": "XYZ Tech",
+    "remoteOrOnsite": "Onsite",
+    "location": "Seattle, WA",
+    "fulltimeOrPartTime": "Full-time",
+    "salary": "Salary commensurate with experience",
+    "jobDescription": "XYZ Tech is seeking a skilled SoftwareEngineer to develop and maintain software applications for our clients and internal projects.",
+    "jobResponsibility": "Design, develop, test, and debug software applications using programming languages such as Java, C++, or Python. Collaborate with cross-functional teams to gather requirements, develop technical specifications, and deliver high-quality software solutions. Troubleshoot and resolve software defects and issues. Keep up-to-date with emerging technologies and industry best practices.",
+    "educationalRequirements": "Bachelor's or Master's degree in Computer Science, Software Engineering, or a related field",
+    "experiences": "At least 5 years of professional experience in software development. Strong proficiency in one or more programming languages such as Java, C++, or Python. Experience with software development methodologies such as Agile or Scrum. Strong problem-solving and debugging skills.",
+    "contactInformation": {
+      "phone": "+897569866",
+      "email": "xyz@tech.com"
+    }
+  }
+]

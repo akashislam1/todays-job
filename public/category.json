@@ -1,0 +1,22 @@
+[
+  {
+    "img": "/src/assets/Icons/accounts_1.png",
+    "jobTitle": "Financial Analyst",
+    "jobAvailable": "100+"
+  },
+  {
+    "img": "/src/assets/Icons/business_1.png",
+    "jobTitle": "UX Designer",
+    "jobAvailable": "120+"
+  },
+  {
+    "img": "/src/assets/Icons/chip_1.png",
+    "jobTitle": "Sales Manager",
+    "jobAvailable": "150+"
+  },
+  {
+    "img": "/src/assets/Icons/social-media_1.png",
+    "jobTitle": "Marketing & Sales",
+    "jobAvailable": "100+"
+  }
+]
