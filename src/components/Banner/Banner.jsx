@@ -8,7 +8,7 @@ const Banner = () => {
           One Step Closer To Your <br />
           <span className=" text-[#7E90FE]">Dream Job</span>
         </h1>
-        <p className="text-[#757575] my-7">
+        <p className="text-primary my-7">
           Explore thousands of job opportunities with all the information you
           need. Its your future. Come find it. Manage all your job application
           from start to finish.
