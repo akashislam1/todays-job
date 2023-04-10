@@ -1,6 +1,6 @@
 ## Live Link
 
-- Hosted in Netlify -> [Today's Job](https://herogadget.netlify.app/)
+- Hosted in Netlify -> [Today's Job](https://moonlit-choux-7c914f.netlify.app/)
 
 ## React Router Dom v6.4
 
