@@ -26,7 +26,7 @@ const Feature = ({ feature }) => {
       </div>
       <div className="flex gap-5 mb-5 text-primary">
         <p>Location : {location}</p>
-        <p>Salary : BDT {salary}</p>
+        <p>Salary : BDT {salary} Tk</p>
       </div>
       <div>
         <Link to={`/feature/${id}`}>

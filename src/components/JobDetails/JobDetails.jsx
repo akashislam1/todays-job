@@ -51,12 +51,12 @@ const JobDetails = () => {
             </div>
             <div className="bg-[#9873FF1A] p-6 w-full  lg:w-2/5">
               <h3 className="font-bold text-xl">Job details</h3>
-              <hr className="my-6 " />
+              <hr className="my-5 " />
               <div>
                 <p className="font-bold ">
                   Salary :{" "}
                   <span className="text-primary">
-                    BDT {singleJobDetail?.salary}
+                    BDT {singleJobDetail?.salary} Tk
                   </span>
                 </p>
                 <p className="font-bold ">
@@ -68,7 +68,7 @@ const JobDetails = () => {
               </div>
               <div className="mt-8">
                 <h2 className="font-bold text-xl">Contact Information</h2>
-                <hr className="my-6 " />
+                <hr className="my-5 " />
                 <div>
                   <p className="font-bold ">
                     Phone :{" "}

@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home";
 import JobDetails from "./components/JobDetails/JobDetails";
+import Statistics from "./components/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/feature/:Id",
         element: <JobDetails></JobDetails>,
+      },
+      {
+        path: "/statistics",
+        element: <Statistics></Statistics>,
       },
     ],
   },
