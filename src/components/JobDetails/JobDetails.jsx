@@ -1,10 +1,22 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { json, useParams } from "react-router-dom";
 
 const JobDetails = () => {
   const { Id } = useParams();
   const [allData, setAllData] = useState([]);
   const [singleJobDetail, setSingleJobDetail] = useState([]);
+  const [jobDatas, setJobDatas] = useState([]);
+
+  const handleApplyNow = (id) => {};
+  // const handleApplyNow = (id) => {
+  //   const jobData = jobDatas.find((data) => data === id);
+  //   if (jobData) {
+  //     setJobDatas([...jobDatas, id]);
+  //     return alert("Job");
+  //   } else {
+  //     setJobDatas([...jobDatas, id]);
+  //   }
+  // };
 
   useEffect(() => {
     fetch("/data.json")
@@ -91,7 +103,12 @@ const JobDetails = () => {
                 </div>
               </div>
               <div className="mt-8">
-                <button className="btn-primary w-full">Apply Now</button>
+                <button
+                  onClick={() => handleApplyNow(singleJobDetail?.id)}
+                  className="btn-primary w-full"
+                >
+                  Apply Now
+                </button>
               </div>
             </div>
           </>

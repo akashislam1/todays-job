@@ -10,7 +10,7 @@ const Header = () => {
         <div>
           <Link to="/" className="inline-flex items-center">
             <span className=" text-xl font-bold tracking-wide text-gray-800 ">
-              Today'S <span className=" text-[#7E90FE]">JOB</span>
+              Today'S <span className="text-gradiant">JOB</span>
             </span>
           </Link>
         </div>

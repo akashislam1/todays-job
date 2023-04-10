@@ -8,6 +8,9 @@
 .btn-secondary {
   @apply border border-[#7E90FE] text-[#7E90FE] font-bold px-5 py-2 rounded-md;
 }
+.text-gradiant {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-blue-500;
+}
 .text-primary {
   @apply text-[#757575];
 }

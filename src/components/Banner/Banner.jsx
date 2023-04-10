@@ -6,7 +6,7 @@ const Banner = () => {
       <div className="mt-5">
         <h1 className="lg:text-6xl text-2xl font-semibold">
           One Step Closer To Your <br />
-          <span className=" text-[#7E90FE]">Dream Job</span>
+          <span className=" text-gradiant">Dream Job</span>
         </h1>
         <p className="text-primary my-7">
           Explore thousands of job opportunities with all the information you
