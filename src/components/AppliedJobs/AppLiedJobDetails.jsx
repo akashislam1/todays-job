@@ -12,10 +12,9 @@ const AppLiedJobDetails = ({ apData }) => {
     location,
     salary,
   } = apData;
-  // console.log(id);
 
   return (
-    <div className="my-4 border-2 p-7 rounded-md flex justify-between items-center">
+    <div className="my-4 border-2 p-7 rounded-md lg:flex justify-between items-center">
       <div>
         <img className="w-36 h-20 rounded-md" src={companyLogo} alt="" />
         <div className="mt-7 mb-3">

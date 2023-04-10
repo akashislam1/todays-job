@@ -1,14 +1,30 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { addToDb } from "../../FakeDb/FakeDb";
+import { addToDb, getJobApplyData } from "../../FakeDb/FakeDb";
+import { toast } from "react-toastify";
 
 const JobDetails = () => {
   const { Id } = useParams();
   const [allData, setAllData] = useState([]);
   const [singleJobDetail, setSingleJobDetail] = useState([]);
+  const [datas, setDatas] = useState([]);
 
-  const handleApplyNow = (id) => {
-    addToDb(id);
+  const handleApplyNow = (singleJobDetail) => {
+    const exist = datas.find((data) => data.id === singleJobDetail.id);
+    if (exist) {
+      toast.error(
+        `You already applied this job . Please visit Applied Job page !!`,
+        {
+          position: toast.POSITION.TOP_CENTER,
+        }
+      );
+    } else {
+      setDatas([...datas, singleJobDetail]);
+      addToDb(singleJobDetail.id);
+      toast.success("Application successfully submitted !", {
+        position: toast.POSITION.TOP_CENTER,
+      });
+    }
   };
 
   useEffect(() => {
@@ -97,7 +113,7 @@ const JobDetails = () => {
               </div>
               <div className="mt-8">
                 <button
-                  onClick={() => handleApplyNow(singleJobDetail?.id)}
+                  onClick={() => handleApplyNow(singleJobDetail)}
                   className="btn-primary w-full"
                 >
                   Apply Now

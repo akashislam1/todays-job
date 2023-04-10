@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Feature = ({ feature }) => {
-  // console.log(feature);
   const {
     id,
     companyLogo,
@@ -20,11 +19,11 @@ const Feature = ({ feature }) => {
         <h1 className="text-2xl font-semibold">{jobTitle}</h1>
         <p className="text-primary">{companyName}</p>
       </div>
-      <div className="flex gap-5 mb-3">
-        <button className="btn-secondary">{remoteOrOnsite}</button>
-        <button className="btn-secondary">{fulltimeOrPartTime}</button>
+      <div className=" grid lg:grid-cols-2 gap-5 mb-3">
+        <button className="btn-secondary ">{remoteOrOnsite}</button>
+        <button className="btn-secondary  ">{fulltimeOrPartTime}</button>
       </div>
-      <div className="flex gap-5 mb-5 text-primary">
+      <div className="grid lg:grid-cols-2 gap-5 mb-5 text-primary">
         <p>Location : {location}</p>
         <p>Salary : BDT {salary} Tk</p>
       </div>

@@ -17,16 +17,36 @@ const Header = () => {
         <div className="hidden lg:block">
           <ul className="flex gap-4 font-semibold">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink
+                to="/"
+                className={({ isActive }) => (isActive ? "active" : "default")}
+              >
+                Home
+              </NavLink>
             </li>
             <li>
-              <Link to="/statistics">Statistics</Link>
+              <NavLink
+                to="/statistics"
+                className={({ isActive }) => (isActive ? "active" : "default")}
+              >
+                Statistics
+              </NavLink>
             </li>
             <li>
-              <Link to="/appliedJob">Applied Jobs</Link>
+              <NavLink
+                to="/appliedJob"
+                className={({ isActive }) => (isActive ? "active" : "default")}
+              >
+                Applied Jobs
+              </NavLink>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
+              <NavLink
+                to="/blog"
+                className={({ isActive }) => (isActive ? "active" : "default")}
+              >
+                Blog
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -49,16 +69,44 @@ const Header = () => {
             ></XMarkIcon>
             <ul className="font-semibold">
               <li>
-                <Link to="/">Home</Link>
+                <NavLink
+                  to="/"
+                  className={({ isActive }) =>
+                    isActive ? "active" : "default"
+                  }
+                >
+                  Home
+                </NavLink>
               </li>
               <li>
-                <Link to="/statistics">Statistics</Link>
+                <NavLink
+                  to="/statistics"
+                  className={({ isActive }) =>
+                    isActive ? "active" : "default"
+                  }
+                >
+                  Statistics
+                </NavLink>
               </li>
               <li>
-                <Link to="/appliedJob">Applied Jobs</Link>
+                <NavLink
+                  to="/appliedJob"
+                  className={({ isActive }) =>
+                    isActive ? "active" : "default"
+                  }
+                >
+                  Applied Jobs
+                </NavLink>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <NavLink
+                  to="/blog"
+                  className={({ isActive }) =>
+                    isActive ? "active" : "default"
+                  }
+                >
+                  Blog
+                </NavLink>
               </li>
             </ul>
           </div>
