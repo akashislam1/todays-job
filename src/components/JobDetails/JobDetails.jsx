@@ -10,15 +10,6 @@ const JobDetails = () => {
   const handleApplyNow = (id) => {
     addToDb(id);
   };
-  // const handleApplyNow = (id) => {
-  //   const jobData = jobDatas.find((data) => data === id);
-  //   if (jobData) {
-  //     setJobDatas([...jobDatas, id]);
-  //     return alert("Job");
-  //   } else {
-  //     setJobDatas([...jobDatas, id]);
-  //   }
-  // };
 
   useEffect(() => {
     fetch("/data.json")
