@@ -38,7 +38,7 @@ const JobDetails = () => {
   }, [allData]);
   return (
     <div className="my-12">
-      <div className=" lg:text-center my-8 ">
+      <div className=" lg:text-center lg:mb-32 ">
         <h1 className="text-2xl lg:text-5xl font-bold">Job Details</h1>
       </div>
       <div className="lg:flex gap-4 ">

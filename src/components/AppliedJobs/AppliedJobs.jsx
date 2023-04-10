@@ -10,6 +10,7 @@ const AppliedJobs = () => {
       <div className=" lg:text-center my-10 ">
         <h1 className="text-2xl lg:text-5xl font-bold">Applied Jobs</h1>
       </div>
+
       {jobAppliedArray?.map((apData) => (
         <AppLiedJobDetails key={apData.id} apData={apData}></AppLiedJobDetails>
       ))}
