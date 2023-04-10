@@ -18,11 +18,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="mt-5">
-        <img
-          className="object-cover "
-          src="../../../src/assets/person.png"
-          alt=""
-        />
+        <img className="object-cover " src="./person.png" alt="" />
       </div>
     </div>
   );

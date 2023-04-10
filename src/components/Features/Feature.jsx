@@ -25,16 +25,12 @@ const Feature = ({ feature }) => {
       </div>
       <div className="grid lg:grid-cols-2 gap-5 mb-5 text-primary">
         <p className="flex items-center gap-1">
-          <img
-            className="w-5 h-5"
-            src="/src/assets/Icons/Location_Icon.png"
-            alt=""
-          />{" "}
-          Location : {location}
+          <img className="w-5 h-5" src="./Icons/Frame-4.png" alt="" /> Location
+          : {location}
         </p>
         <p className="flex items-center gap-1">
-          <img className="w-5 h-5" src="/src/assets/Icons/Frame.png" alt="" />{" "}
-          Salary : BDT {salary} Tk
+          <img className="w-5 h-5" src="./Icons/Frame.png" alt="" /> Salary :
+          BDT {salary} Tk
         </p>
       </div>
       <div>

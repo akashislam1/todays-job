@@ -1,7 +1,7 @@
 [
   {
     "id": "123457",
-    "companyLogo": "../src/assets/comp_img/sotech.jpg",
+    "companyLogo": "./comp_img/sotech.jpg",
     "jobTitle": "Software Engineer",
     "companyName": "ABC Tech",
     "remoteOrOnsite": "Remote",
@@ -19,7 +19,7 @@
   },
   {
     "id": "678909",
-    "companyLogo": "../src/assets/comp_img/codata.jpg",
+    "companyLogo": "./comp_img/codata.jpg",
     "jobTitle": "Data Scientist",
     "companyName": "XYZ Analytics",
     "remoteOrOnsite": "Onsite",
@@ -37,7 +37,7 @@
   },
   {
     "id": "456780",
-    "companyLogo": "../src/assets/comp_img/cynosoft-final1.jpg",
+    "companyLogo": "./comp_img/cynosoft-final1.jpg",
     "jobTitle": "Front-end Developer",
     "companyName": "LMN Solutions",
     "remoteOrOnsite": "Remote",
@@ -55,7 +55,7 @@
   },
   {
     "id": "789016",
-    "companyLogo": "../src/assets/comp_img/easypark.jpg",
+    "companyLogo": "./comp_img/easypark.jpg",
     "jobTitle": "Product Manager",
     "companyName": "PQR Inc.",
     "remoteOrOnsite": "Onsite",
@@ -73,7 +73,7 @@
   },
   {
     "id": "234568",
-    "companyLogo": "../src/assets/comp_img/zombiup.jpg",
+    "companyLogo": "./comp_img/zombiup.jpg",
     "jobTitle": "UX Designer",
     "companyName": "DEF Creative",
     "remoteOrOnsite": "Remote",
@@ -91,7 +91,7 @@
   },
   {
     "id": "345671",
-    "companyLogo": "../src/assets/comp_img/inteli.jpg",
+    "companyLogo": "./comp_img/inteli.jpg",
     "jobTitle": "UX/UI Designer",
     "companyName": "GHI Analytics",
     "remoteOrOnsite": "Onsite",
@@ -109,7 +109,7 @@
   },
   {
     "id": "456784",
-    "companyLogo": "../src/assets/comp_img/branda.jpg",
+    "companyLogo": "./comp_img/branda.jpg",
     "jobTitle": "Graphic Designer",
     "companyName": "JKL Creative",
     "remoteOrOnsite": "Remote",
@@ -127,7 +127,7 @@
   },
   {
     "id": "567895",
-    "companyLogo": "../src/assets/comp_img/somtech.jpg",
+    "companyLogo": "./comp_img/somtech.jpg",
     "jobTitle": "Frontend Developer",
     "companyName": "MNO Tech",
     "remoteOrOnsite": "Onsite",
@@ -146,7 +146,7 @@
 
   {
     "id": "678903",
-    "companyLogo": "../src/assets/comp_img/writter.png",
+    "companyLogo": "./comp_img/writter.png",
     "jobTitle": "Content Writer",
     "companyName": "PQR Media",
     "remoteOrOnsite": "Remote",
@@ -164,7 +164,7 @@
   },
   {
     "id": "789012",
-    "companyLogo": "../src/assets/comp_img/mind-tech.jpg",
+    "companyLogo": "./comp_img/mind-tech.jpg",
     "jobTitle": "Software Engineer",
     "companyName": "XYZ Tech",
     "remoteOrOnsite": "Onsite",

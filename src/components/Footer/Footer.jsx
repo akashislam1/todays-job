@@ -16,7 +16,7 @@ const Footer = () => {
             majority have suffered alteration in some form.
           </p>
           <div>
-            <img src="../../../src/assets/Icons/Group_9969.png" alt="" />
+            <img src="./Icons/Group_9969.png" alt="" />
           </div>
         </div>
         <div className="flex flex-col gap-4">

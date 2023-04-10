@@ -75,11 +75,7 @@ const JobDetails = () => {
               <hr className="my-5 " />
               <div>
                 <div className="flex items-center gap-1">
-                  <img
-                    className="w-5 h-5"
-                    src="/src/assets/Icons/Frame.png"
-                    alt=""
-                  />{" "}
+                  <img className="w-5 h-5" src="../Icons/Frame.png" alt="" />{" "}
                   <p className="font-bold ">
                     Salary :{" "}
                     <span className="text-primary">
@@ -88,11 +84,7 @@ const JobDetails = () => {
                   </p>
                 </div>
                 <div className="flex items-center gap-1">
-                  <img
-                    className="w-5 h-5"
-                    src="/src/assets/Icons/Frame-1.png"
-                    alt=""
-                  />
+                  <img className="w-5 h-5" src="../Icons/Frame-1.png" alt="" />
                   <p className="font-bold ">
                     Job Title :{" "}
                     <span className="text-primary">
@@ -108,7 +100,7 @@ const JobDetails = () => {
                   <div className="flex items-center gap-1">
                     <img
                       className="w-5 h-5"
-                      src="/src/assets/Icons/Frame-2.png"
+                      src="../Icons/Frame-2.png"
                       alt=""
                     />
                     <p className="font-bold ">
@@ -121,7 +113,7 @@ const JobDetails = () => {
                   <div className="flex items-center gap-1">
                     <img
                       className="w-5 h-5"
-                      src="/src/assets/Icons/Frame-3.png"
+                      src="../Icons/Frame-3.png"
                       alt=""
                     />
                     <p className="font-bold ">
@@ -134,7 +126,7 @@ const JobDetails = () => {
                   <div className="flex items-center gap-1 ">
                     <img
                       className="w-5 h-5"
-                      src="/src/assets/Icons/Location_Icon.png"
+                      src="../Icons/Frame-4.png"
                       alt=""
                     />
                     <p className="font-bold ">

@@ -26,8 +26,14 @@ const AppLiedJobDetails = ({ apData }) => {
           <button className="btn-secondary">{fulltimeOrPartTime}</button>
         </div>
         <div className="flex gap-5 mb-5 text-primary">
-          <p>Location : {location}</p>
-          <p>Salary : BDT {salary} Tk</p>
+          <p className="flex items-center gap-1">
+            <img className="w-5 h-5" src="./Icons/Frame-4.png" alt="" />{" "}
+            Location : {location}
+          </p>
+          <p className="flex items-center gap-1">
+            <img className="w-5 h-5" src="./Icons/Frame.png" alt="" /> Salary :
+            BDT {salary} Tk
+          </p>
         </div>
       </div>
       <div>
