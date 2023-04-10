@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { json, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { addToDb } from "../../FakeDb/FakeDb";
 
 const JobDetails = () => {
   const { Id } = useParams();
@@ -7,7 +8,10 @@ const JobDetails = () => {
   const [singleJobDetail, setSingleJobDetail] = useState([]);
   const [jobDatas, setJobDatas] = useState([]);
 
-  const handleApplyNow = (id) => {};
+  const handleApplyNow = (id) => {
+    console.log(id);
+    addToDb(id);
+  };
   // const handleApplyNow = (id) => {
   //   const jobData = jobDatas.find((data) => data === id);
   //   if (jobData) {
