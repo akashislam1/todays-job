@@ -6,10 +6,8 @@ const JobDetails = () => {
   const { Id } = useParams();
   const [allData, setAllData] = useState([]);
   const [singleJobDetail, setSingleJobDetail] = useState([]);
-  const [jobDatas, setJobDatas] = useState([]);
 
   const handleApplyNow = (id) => {
-    console.log(id);
     addToDb(id);
   };
   // const handleApplyNow = (id) => {

@@ -1,18 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Feature from "./Feature";
 
-const Features = () => {
-  const [features, setFeatures] = useState([]);
+const Features = ({ features }) => {
   const [showAll, setShowAll] = useState(false);
   const handleShowAll = () => {
     setShowAll(true);
   };
-
-  useEffect(() => {
-    fetch("/data.json")
-      .then((res) => res.json())
-      .then((data) => setFeatures(data));
-  }, []);
 
   return (
     <>
