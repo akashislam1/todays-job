@@ -62,7 +62,7 @@ const Header = () => {
       </div>
       {menuOpen && (
         <div>
-          <div className="absolute  inset-x-0 top-0 bg-gradient-to-r from-cyan-500 to-blue-500 text-white p-4">
+          <div className="absolute  inset-x-0 top-0  p-4">
             <XMarkIcon
               onClick={() => setMenuOpen(false)}
               className="w-6 h-6 absolute top-2 right-5 "
