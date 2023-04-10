@@ -14,4 +14,4 @@
 
 - Icon -> [Hero Icon](https://heroicons.com/)
 
-- Image -> [Company Image](/src/assets/comp_img/) && [Other Icon](/src/assets/Icons/)
+- Image -> [Company Image](./comp_img/) && [Other Icon](./Icons/)
