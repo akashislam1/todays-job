@@ -37,7 +37,7 @@ const JobDetails = () => {
     setSingleJobDetail(singleData[0]);
   }, [allData]);
   return (
-    <>
+    <div className="my-12">
       <div className=" lg:text-center my-8 ">
         <h1 className="text-2xl lg:text-5xl font-bold">Job Details</h1>
       </div>
@@ -74,41 +74,76 @@ const JobDetails = () => {
               <h3 className="font-bold text-xl">Job details</h3>
               <hr className="my-5 " />
               <div>
-                <p className="font-bold ">
-                  Salary :{" "}
-                  <span className="text-primary">
-                    BDT {singleJobDetail?.salary} Tk
-                  </span>
-                </p>
-                <p className="font-bold ">
-                  Job Title :{" "}
-                  <span className="text-primary">
-                    {singleJobDetail?.jobTitle}
-                  </span>
-                </p>
+                <div className="flex items-center gap-1">
+                  <img
+                    className="w-5 h-5"
+                    src="/src/assets/Icons/Frame.png"
+                    alt=""
+                  />{" "}
+                  <p className="font-bold ">
+                    Salary :{" "}
+                    <span className="text-primary">
+                      BDT {singleJobDetail?.salary} Tk
+                    </span>
+                  </p>
+                </div>
+                <div className="flex items-center gap-1">
+                  <img
+                    className="w-5 h-5"
+                    src="/src/assets/Icons/Frame-1.png"
+                    alt=""
+                  />
+                  <p className="font-bold ">
+                    Job Title :{" "}
+                    <span className="text-primary">
+                      {singleJobDetail?.jobTitle}
+                    </span>
+                  </p>
+                </div>
               </div>
               <div className="mt-8">
                 <h2 className="font-bold text-xl">Contact Information</h2>
                 <hr className="my-5 " />
                 <div>
-                  <p className="font-bold ">
-                    Phone :{" "}
-                    <span className="text-primary">
-                      {singleJobDetail?.contactInformation?.phone}
-                    </span>
-                  </p>
-                  <p className="font-bold ">
-                    Email :{" "}
-                    <span className="text-primary">
-                      {singleJobDetail?.contactInformation?.email}
-                    </span>
-                  </p>
-                  <p className="font-bold ">
-                    Address :{" "}
-                    <span className="text-primary">
-                      {singleJobDetail?.location}
-                    </span>
-                  </p>
+                  <div className="flex items-center gap-1">
+                    <img
+                      className="w-5 h-5"
+                      src="/src/assets/Icons/Frame-2.png"
+                      alt=""
+                    />
+                    <p className="font-bold ">
+                      Phone :{" "}
+                      <span className="text-primary">
+                        {singleJobDetail?.contactInformation?.phone}
+                      </span>
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <img
+                      className="w-5 h-5"
+                      src="/src/assets/Icons/Frame-3.png"
+                      alt=""
+                    />
+                    <p className="font-bold ">
+                      Email :{" "}
+                      <span className="text-primary">
+                        {singleJobDetail?.contactInformation?.email}
+                      </span>
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-1 ">
+                    <img
+                      className="w-5 h-5"
+                      src="/src/assets/Icons/Location_Icon.png"
+                      alt=""
+                    />
+                    <p className="font-bold ">
+                      Address :{" "}
+                      <span className="text-primary">
+                        {singleJobDetail?.location}
+                      </span>
+                    </p>
+                  </div>
                 </div>
               </div>
               <div className="mt-8">
@@ -123,7 +158,7 @@ const JobDetails = () => {
           </>
         )}
       </div>
-    </>
+    </div>
   );
 };
 
