@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { addToDb, getJobApplyData } from "../../FakeDb/FakeDb";
+import { addToDb } from "../../FakeDb/FakeDb";
 import { toast } from "react-toastify";
 
 const JobDetails = () => {
@@ -138,7 +138,7 @@ const JobDetails = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-8">
+              <div className="mt-8 ">
                 <button
                   onClick={() => handleApplyNow(singleJobDetail)}
                   className="btn-primary w-full"
