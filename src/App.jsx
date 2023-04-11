@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="w-full lg:w-5/6 mx-auto p-2">
       <Header></Header>
-      <div className="md:min-h-[calc(100vh-341px)]">
+      <div className="md:min-h-[calc(100vh-230px)]">
         <Outlet />
       </div>
       <Footer></Footer>

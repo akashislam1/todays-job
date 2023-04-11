@@ -27,14 +27,21 @@ const AppliedJobs = () => {
       <div className=" lg:text-center my-10 ">
         <h1 className="text-2xl lg:text-5xl font-bold">Applied Jobs</h1>
       </div>
-      <div className="text-right mr-5">
-        <button className="btn-secondary mr-3" onClick={pickRemoteJob}>
-          Remote
-        </button>
-        <button className="btn-secondary" onClick={pickOnsiteJob}>
-          Onsite
-        </button>
-      </div>
+      {jobAppliedArray.length ? (
+        <div className="text-right mr-5">
+          <button className="btn-secondary mr-3" onClick={pickRemoteJob}>
+            Remote
+          </button>
+          <button className="btn-secondary" onClick={pickOnsiteJob}>
+            Onsite
+          </button>
+        </div>
+      ) : (
+        <div className="lg:text-center lg:text-2xl lg:font-semibold font-semibold">
+          <h4>You do not Apply</h4>
+        </div>
+      )}
+
       {remoteOnsiteJobs
         ? remoteOnsiteJobs?.map((apData) => (
             <AppLiedJobDetails
