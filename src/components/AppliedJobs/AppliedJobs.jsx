@@ -1,22 +1,26 @@
 import React, { useEffect, useState } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { useLoaderData } from "react-router-dom";
 import AppLiedJobDetails from "./appLiedJobDetails";
 
 const AppliedJobs = () => {
   const { jobAppliedArray } = useLoaderData();
-  const [appliedJob, setAppliedJob] = useState([]);
+  const [remoteJobs, setRemoteJobs] = useState(jobAppliedArray);
+  const [onsiteJobs, setOnsiteJobs] = useState(jobAppliedArray);
+  const [remoteOnsiteJobs, setRemoteOnsiteJobs] = useState(jobAppliedArray);
 
   const pickRemoteJob = () => {
-    const remoteJob = jobAppliedArray.filter(
+    const remoteJob = remoteJobs.filter(
       (appliedJob) => appliedJob.remoteOrOnsite === "Remote"
     );
-    setAppliedJob(remoteJob);
+    setRemoteJobs(remoteJob);
+    setRemoteOnsiteJobs(remoteJob);
   };
   const pickOnsiteJob = () => {
-    const onsiteJob = jobAppliedArray.filter(
+    const onsiteJob = onsiteJobs.filter(
       (appliedJob) => appliedJob.remoteOrOnsite === "Onsite"
     );
-    setAppliedJob(onsiteJob);
+    setOnsiteJobs(onsiteJob);
+    setRemoteOnsiteJobs(onsiteJob);
   };
   return (
     <>
@@ -31,9 +35,19 @@ const AppliedJobs = () => {
           Onsite
         </button>
       </div>
-      {appliedJob?.map((apData) => (
-        <AppLiedJobDetails key={apData.id} apData={apData}></AppLiedJobDetails>
-      ))}
+      {remoteOnsiteJobs
+        ? remoteOnsiteJobs?.map((apData) => (
+            <AppLiedJobDetails
+              key={apData.id}
+              apData={apData}
+            ></AppLiedJobDetails>
+          ))
+        : jobAppliedArray?.map((apData) => (
+            <AppLiedJobDetails
+              key={apData.id}
+              apData={apData}
+            ></AppLiedJobDetails>
+          ))}
     </>
   );
 };
