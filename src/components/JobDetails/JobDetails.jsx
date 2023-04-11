@@ -79,7 +79,7 @@ const JobDetails = () => {
                   <p className="font-bold ">
                     Salary :{" "}
                     <span className="text-primary">
-                      BDT {singleJobDetail?.salary} Tk
+                      BDT {singleJobDetail?.salary}
                     </span>
                   </p>
                 </div>

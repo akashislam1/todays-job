@@ -19,9 +19,13 @@ const Feature = ({ feature }) => {
         <h1 className="text-2xl font-semibold">{jobTitle}</h1>
         <p className="text-primary">{companyName}</p>
       </div>
-      <div className=" grid lg:grid-cols-2 gap-5 mb-3">
-        <button className="btn-secondary ">{remoteOrOnsite}</button>
-        <button className="btn-secondary  ">{fulltimeOrPartTime}</button>
+      <div className="flex gap-3 mb-3">
+        <p className="border border-[#7E90FE] text-[#7E90FE] font-bold py-1 px-2 rounded-md ">
+          {remoteOrOnsite}
+        </p>
+        <p className="border border-[#7E90FE] text-[#7E90FE] font-bold py-1 px-2 rounded-md ">
+          {fulltimeOrPartTime}
+        </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-5 mb-5 text-primary">
         <p className="flex items-center gap-1">
@@ -30,7 +34,7 @@ const Feature = ({ feature }) => {
         </p>
         <p className="flex items-center gap-1">
           <img className="w-5 h-5" src="./Icons/Frame.png" alt="" /> Salary :
-          BDT {salary} Tk
+          BDT {salary}
         </p>
       </div>
       <div>

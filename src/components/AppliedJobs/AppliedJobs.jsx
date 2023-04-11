@@ -38,7 +38,10 @@ const AppliedJobs = () => {
         </div>
       ) : (
         <div className="lg:text-center lg:text-2xl lg:font-semibold font-semibold">
-          <h4>You do not Apply</h4>
+          <h4>
+            You did not Applied any job. Are you want to apply any job ? Please
+            go home page and scroll 10 sec and you see what you want !!
+          </h4>
         </div>
       )}
 
