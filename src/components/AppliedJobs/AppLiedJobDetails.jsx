@@ -33,7 +33,7 @@ const AppLiedJobDetails = ({ apData }) => {
             </p>
             <p className="flex items-center gap-1">
               <img className="w-5 h-5" src="./Icons/Frame.png" alt="" /> Salary
-              : BDT {salary} Tk
+              : BDT {salary}
             </p>
           </div>
         </div>
