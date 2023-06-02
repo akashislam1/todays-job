@@ -35,7 +35,11 @@ const JobDetails = () => {
   useEffect(() => {
     const singleData = allData.filter((sData) => sData.id === Id);
     setSingleJobDetail(singleData[0]);
+    window.scrollTo(0, 0);
   }, [allData]);
+  // useEffect(() => {
+  //   window.scrollTo(0, 0);
+  // }, []);
   return (
     <div className="my-12">
       <div className=" lg:text-center lg:mb-32 ">
